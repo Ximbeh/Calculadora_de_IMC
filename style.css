@@ -3,9 +3,22 @@ body{
     color: #070E17;
 }   
 
+.titulo{
+    color: #DDE7EF;
+    text-align: center;
+    font-size: 50px;
+    background-color: #070E17;
+    border-radius: 20px;
+    opacity: 1;
+    margin-left:30%;
+    margin-right:30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
 header{
     background-image: url(gym-coronavirus.png);
-    opacity: 0.5;
     padding: 6%;
     background-repeat: no-repeat;
     background-position: left center;
@@ -15,13 +28,18 @@ header{
   
 }
 
-.titulo{
-    color: #DDE7EF;
-    text-align: center;
-    font-size: 50px;
-    background-color: #070E17;
-    border-radius: 20px;
 
+
+.texto1{
+    background-color: #070E17;
+    padding: 2px;
+    color:#DDE7EF;
+    font-size: 25px;
+    margin-right:39%;
+    margin-left: 39%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    border-radius: 30px;
 }
 
 .container{
@@ -30,10 +48,125 @@ header{
     
 }
 
+input{
+    border-radius: 20px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    border-color: #254674;
+    background-color: #d3d9e7;
+}
+
+.result{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.btn1{
+    border-color: #254674;
+    padding: 10px;
+    padding-left:3.5%;
+    padding-right:3.5%;
+    background-color: #9cb3c7;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right:1%;
+    transition: transform 0.3s;
+
+}
+.btn1:hover{
+    cursor:pointer;
+    background-color:#548cd6;
+    transform: scale(1.13);
+    color:aliceblue;
+}
+
+
+.btn2{
+    border-color: #360e12;
+    padding: 10px;
+    padding-left:3.9%;
+    padding-right:3.9%;
+    background-color: #c58c99;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    transition: transform 0.3s;
+
+}
+
+.btn2:hover{
+    cursor:pointer;
+    background-color:#d44343;
+    transform: scale(1.13);
+    color:aliceblue;
+    
+}
+.texto2{
+    background-color: #070E17;
+    padding: 2px;
+    color:#DDE7EF;
+    font-size: 25px;
+    margin-right:42%;
+    margin-left: 42%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    border-radius: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(21, 24, 34);
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4%
+  }
+
+
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: rgb(235,235,235);
+    text-align: center;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(207, 207, 207);
+    text-align: center;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(245,245,245);
+    text-align: center;
+  }
+  
+  caption {
+    padding: 10px;
+  }
+
 footer{
     color: #DDE7EF;
     padding: 6px;
     text-align: right;
     font-size: 15px;
     background-color: #070E17;
+}
+
+html{
+    font-family: sans-serif;
+
 }

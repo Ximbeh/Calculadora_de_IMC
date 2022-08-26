@@ -16,30 +16,56 @@
     </header>
 
     <div class="container">
+        <div class="texto1">
             <p>Calculadora de IMC</p> 
-            <p>Altura (ex.: 170)</p>
+        </div>
 
-            <p>Peso (ex.:65)</p>
-            <input type="number" id="q1">
-            <input type="number" id="q2">
+        <input type="number" placeholder="Altura (ex: 178)" id="q1">  <input type="number" placeholder="Peso (ex: 74) " id="q2">
 
-           
+        <br>
 
+        <button class="btn1" onclick="calcular()" id="calcula">Calcular</button><button class="btn2" onclick="limpar()">Limpar</button>
 
-            <div class="calcular">
-                  <button onclick="calcular()" id="calcula">Calcular</button>
-            </div>
+        <br>
 
-            <div class="limpar">
-                <button type="reset">Limpar</button>
-            </div>
-
-            <input type="resultado" id="q3">
+        <input class="result" type="resultado" placeholder="Resultado" id="q3">
                   
-
+        <div class = "texto2">
             <p>Tabela de IMC</p>
+        </div>
+          <table>
+            
+                <tr>
+                <td>IMC</td>
+                <td>Classificação</td>
+                <td>Obesidade</td>
+                </tr>
+           
+            <tr>
+            <td>Menor que 18,5</td>
+            <td>Magreza</td>
+            <td>0</td>
+            </tr>
+            <tr>
+            <td>Entre 18,5 e 24,9</td>
+            <td>Normal</td>
+            <td>0</td>
+            </tr>
+            <tr>
+            <td>Entre 25,0 e 29,9</td>
+            <td>Sobrepeso</td>
+            <td>1</td>
+            </tr>
+            <tr>
+            <td>Entre 30,0 e 39,9</td>
+            <td>Obesidade</td>
+            <td>2</td>
+            </tr>
+            <td>Maior do que 40,0</td>
+            <td>Obesidade grave</td>
+            <td>3</td>
+        </table>
 
-            <img url="tabela.png">
 
 
     </div>
