@@ -1,0 +1,11 @@
+Bom dia Battistella!
+algumas considerações sobre essa atividade:
+
+A parte no qual o console log recebe a informação de que estagio a pessoa esta baseada no IMC eu fiz depois 
+do prazo, logo quando cheguei em casa. Queria ver se eu conseguia fazer e então atualizei no Git. Se você quiser 
+desconsiderar essa parte do trabalho já que eu não fiz no horario, tudo bem!
+
+Para criar aquela tabela eu me baseei no que os caras estavam falando no StackOverFlow: https://stackoverflow.com/questions/14643617/create-table-using-javascript
+Não tenho certeza se era permitido eu dar uma olhada em algumas ajudas na internet, espero que sejakkk
+
+Enfim, é isso Bats, valeu!
